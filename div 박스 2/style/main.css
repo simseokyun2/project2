@@ -1,0 +1,31 @@
+.box {
+    width: 100px;
+    background-color: cadetblue;
+    margin:auto;
+    padding:40px;
+    border:4px solid black;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 10px;
+    box-shadow:-5px 5px 5px  black;
+   
+
+    /* 그림자 주는 속성 : box-shadow: ; */
+    /* box-shadow: [h-offset]좌우위치 [v-offset]상하위치 [blur]흐려짐정도 [spread]그림자의크기 [color]색상 (inset); */
+
+    /* inherits 이란 부모태그에 스타일을 적용하면 자식요소에도 적용되는 것을 말함  */
+    /* /* font-size / color / font-family 등등이 있음.  */
+}
+
+.profile {
+    display: block;
+    margin: auto
+}
+
+.title{
+    font-weight: 700;
+    text-align: center;
+}
+.content{
+    text-align: center;
+}

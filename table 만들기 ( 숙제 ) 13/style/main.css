@@ -1,0 +1,149 @@
+/* body {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.blue {
+    width: 100%;
+    background-color: #c2d3de;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+td,
+th {
+    /* border: 1px solid black; }*/
+
+
+
+/* .table-form td {
+    padding: 10px 5px;
+    border-bottom: 1px solid #c2d3de;
+} */
+
+/* .table-form {
+    background: white;
+    width: 100%;
+    margin: auto;
+    max-width: 600px;
+    border-radius: 10px;
+
+}
+
+h3 {
+    width: 100%;
+    margin: auto;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+tr td img {
+    width: 50px;
+}
+
+.cell-long {
+    width: 700px;
+}
+
+.table-form td:nth-child(2) {
+    width: 400px;
+}
+
+button {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+
+
+
+
+}
+
+/* hover 란 마우스를 올려놧을때 */
+/* button:hover {
+    background-color: chocolate;
+
+}
+/* focus 커서를 찍은 후 스타일 */
+/* button:focus{
+    background-color: aquamarine;
+}
+/* active 마우스를 누르고 있을때 */
+/* button:active {
+    background-color: brown;
+
+} */
+/* 세 가지 경우를 적용할 경우 호버 포커스 액티브 순으로 적용해야 함 */
+/* 위 경우는 버튼 뿐만 아니라 input/a 에도 많이 사용 */
+/* 방문 전 링크 스타일링은 :link  방문 후는 visited*/
+/* .bt {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+} */ 
+
+body{
+    margin:0;
+    
+}
+
+div{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,p{
+    margin:0; padding:0;
+}
+
+table{
+    border-collapse: collapse;
+    background-color: white;
+    width:100%;
+    border: none;
+    border-radius: 5px;
+    font-size:14px;
+    font-weight: 500;
+    
+    
+}
+
+.container{
+    padding:30px;
+    width:100%;
+    background-color: skyblue;
+    color:black;
+    
+}
+
+.inner{
+    width:80%;
+    max-width:600px;
+    margin:auto;
+    font-size:15px;
+    font-weight: 300;
+    
+    padding:30px;
+}
+
+td img{width:50px;}
+
+td,th{
+    padding:10px;
+    
+    border-bottom:1px solid skyblue;
+}
+
+.cell-long{
+    width:30%;
+}
+
+table tr:nth-child(2) td img{
+    text-align:center;}

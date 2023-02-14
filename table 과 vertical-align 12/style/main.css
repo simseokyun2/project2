@@ -1,0 +1,12 @@
+td,
+th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+
+/* vertical-align 세로 정열할때 사용 */

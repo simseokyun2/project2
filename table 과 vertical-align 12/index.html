@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+    <!-- 표 만들땐 table -->
+    <!-- 가로 행 만들땐 tr -->
+    <!-- 세로 열 만들땐 td -->
+    <!-- 제목용 세로 열 만들땐 th -->
+
+    <!-- 제목 행은 thead 안에 / 일반 행은 tbody 안에 넣으면 좋음.  기능상의 차이는 없음-->
+
+   <!-- table 은 기본적으로 틈이 존재하는데 없애려면 table 에 border-collapse : collapse 적용 -->
+
+   <!-- 셀 안의 요소 상하정렬 
+   vertical-align : top/middle/bottom -->
+   <!-- vertical-align 은 inline/inline-block 요소간의 세로정렬할때 사용 (글자) -->
+
+    <div>
+        <table>
+            <thead></thead>
+            <tbody></tbody>
+            <tr>
+                <th>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div>
+         <img src="../배경이쁘게넣는스킬들 & margin collapse/images/shoes.jpeg" width="100px" height="100px">
+         <span style="font-size:10px; vertical-align:middle ;">image with a default alignment.</span>
+
+         <!-- 왜 안되지 -->
+         
+     </div> 
+    
+    
+</body>
+</html>

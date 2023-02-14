@@ -1,0 +1,130 @@
+body {
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    
+
+
+}
+h1,h2,h3,h4,span,p{
+    margin:0;
+    padding:0;
+}
+
+.header{
+    background-color: brown;
+    color:white;
+    padding:30px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    display:flex;
+    font-size:25px;
+}
+
+li{
+    list-style: none;
+    width:100%;
+    margin-right:15px;
+    
+}
+li:last-child{
+    margin-right:0
+}
+
+
+
+
+div {
+    box-sizing: border-box;
+}
+
+h4 {
+    margin: 0
+}
+
+p {
+    margin: 0;
+    margin-top: 30px;
+    ;
+}
+.flex-container{
+    display:flex;
+    justify-content: space-between;
+    
+    align-items: center;
+
+}
+
+.flex-item {
+    width: 30%;
+    height: 100px;
+    background-color: grey;
+    margin: 5px;
+}
+
+
+.main-background {
+    width: 100%;
+    height: 500px;
+
+    background-image: url(../images/shoes.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+    text-align: center;
+    position: relative;
+
+
+}
+
+.main-title {
+    color: White;
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.main-background p {
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px 10px 20px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: wheat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 60px;
+    width: 100px;
+
+
+
+}
+
+.sub-background {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    background-color: grey;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -50px;
+
+
+
+}
+

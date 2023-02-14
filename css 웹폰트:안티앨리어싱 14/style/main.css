@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+/* 구글폰트 사용법  */
+
+/* 구글폰트에 접속해 사용하고 싶은 폰트들을 다운 후 코드 복붙 */
+
+body {
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Itim', cursive;
+    /* 굴림체가 없으면 돋음체 돋움체가 없으면 아리엘체 사용해주세요 */
+    /* 폰트 페밀리는 pc에 설치가 되어있어야 사용가능  */
+    
+}
+
+/* 안티앨리어싱 */
+
+/* 맥은 상관 없지만 윈도우에선 폰트들이 각져보이는 현상이 발생한다 
+이를 해결하려면 transform:rotate 속성을 활용하여 폰트가 각져보이는 현상을
+해결할 수 있다 */
+
+
+
+div {
+    box-sizing: border-box;
+}
+
+h4 {
+    margin: 0
+}
+
+p {
+    margin: 0;
+    margin-top: 30px;
+    ;
+}
+
+
+.main-background {
+    width: 100%;
+    height: 500px;
+
+    background-image: url(../images/shoes.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+    text-align: center;
+    position: relative;
+
+
+}
+
+.main-title {
+    color: White;
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.main-background p {
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px 10px 20px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: wheat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 60px;
+    width: 100px;
+
+
+
+}
+
+.sub-background {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    background-color: grey;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -50px;
+
+
+
+}
+
+/* bix-sizing:border-box 박스에 패딩을 주게되면 부여한 width 값보다 width가 늘어나게 된다 그러므로 보더박스 속성을 사용해야함. Padding은 max-width나 width값을 무시하기 때문 */
+
+
+
+
+/* position:absolute 요소 가운데 정렬하는법 */
+/* position:absolute
+    left:0;
+    right:0;
+    margin:auto;
+    적절한 width 를 주면됨
+
+ /* position:absolute는 부모태그가 기준 */
+
+
+
+/*position 부여하면
+1.좌표이동 
+2.공중에 뜸 */
+
+
+
+
+/* position:relative 그자리에서 이동
+position:static 좌표이동x
+position:fixed  현재화면이 기준 */
+
+/* z-index 란 요소를 배치하는 속성. z-index가 높을수록 앞으로 배치됨 */

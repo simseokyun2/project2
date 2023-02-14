@@ -1,0 +1,186 @@
+body {
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+
+
+
+}
+
+h1,
+h2,
+h3,
+h4,
+span,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: brown;
+    color: white;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+li {
+    list-style: none;
+    width: 100%;
+    margin-right: 15px;
+
+}
+
+li:last-child {
+    margin-right: 0
+}
+
+
+
+
+div {
+    box-sizing: border-box;
+}
+
+h4 {
+    margin: 0
+}
+
+p {
+    margin: 0;
+    margin-top: 30px;
+    ;
+}
+
+
+button {
+    padding: 20px;
+    background-color: skyblue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin: 30px;
+    margin-left: 500px;
+    animation-duration: 1s;
+}
+
+button:hover {
+    animation-name: 흔들리기;
+    animation-duration: 0.5s;
+    animation-iteration-count: 10;
+}
+
+
+@keyframes 흔들리기 {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    33% {
+        transform: rotate(20deg);
+
+    }
+
+    66% {
+        transform: rotate(-20deg);
+
+
+    }
+
+    100% {
+
+        transform: rotate(0deg);
+    }
+
+}
+
+.ani-x {
+    font-size: 100px;
+    text-align: center;
+    width: 100px;
+
+    margin: auto;
+
+}
+
+.ani-x:hover {
+    animation-name: 커지기;
+    animation-duration: 1s;
+    /* animation-fill-mode: forwards; 애니메이션 끝났을 때 상태유자ㅣ */
+}
+
+
+@keyframes 커지기 {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    50% {
+        transform: rotate(-20deg)
+    }
+
+    100% {
+        transform: rotate(45deg)scale(1.5)
+    }
+}
+
+
+
+
+
+/* navbar */
+
+nav {
+    width: 200px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    transform: translateX(-130px);
+    transition: all 1s;
+    text-align: right;
+
+
+}
+
+nav:hover {
+    transform: translateX(0);
+    text-align: center;
+}
+
+nav:hover p {
+    animation-name: slide;
+    animation-duration: 2s;
+
+}
+
+nav:hover h4 {
+    animation-name: slide;
+    animation-duration: 1s;
+}
+
+
+
+
+@keyframes slide {
+    0% {
+        transform: translateX(-130px);
+    }
+
+    50% {
+        transform: translateX(20px) skew(-30deg)
+    }
+
+    100% {
+        transform: translateX(0px)
+    }
+
+}

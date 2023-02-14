@@ -1,0 +1,52 @@
+body{overflow: hidden;}
+
+/* vw/vh 로 인해 생기는 스크롤바를 없애고 싶으면 body 태그에 overflow:hidden 적용 */
+.main-background{
+    width:100vw;
+    height:100vh;
+    
+    
+    /* 백그라운드 속성 한번에 적용하기 */
+    /* no-repeat center cover 순서로 */
+    background:url("../images/shoes.jpeg")no-repeat center/cover;
+
+    /* background-image:url(../images/shoes.jpeg); */
+    /* background-size:cover;
+    background-repeat: no-repeat; 
+    background-position:center; */
+    padding:1px;
+    text-align: center;
+
+}
+.main-title{
+    color:White;
+    font-size:40px;
+    margin-top:50px;
+    text-align: center;
+    margin-top:200px;
+    
+}
+
+.main-background p{
+    font-size:30px;
+    color:white;
+   
+}
+
+button{
+    padding:10px 20px 10px 20px;
+    background-color: red;
+    border:none;
+    border-radius: 5px;
+    color:wheat;
+    margin-top:50px;
+    
+}
+
+/* margin collapse 현상 */
+/* 박스 2개가 겹쳐잇을 경우 margin 도 합쳐짐 */
+
+/* 해결방법
+1.테두리를 안붙게 하면됨 (부모박스에 패딩을 1px주면 테두리가 떨어지게되서 margin이 잘 적용됨 */
+
+/* 2.margin-top 대신 padding-top 을 사용 */

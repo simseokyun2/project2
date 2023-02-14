@@ -1,0 +1,174 @@
+/* img {
+    display:block;
+    margin:auto;
+}
+
+h3 {
+    text-align:center
+} */
+
+body {
+    margin: 0;
+    padding: 0
+}
+
+img {
+    display: block;
+}
+
+div.input,
+button {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+
+.container {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    /* height: 500px; */
+    background: linear-gradient(skyblue, skyblue);
+    color: white;
+    overflow: hidden
+}
+
+.inner {
+    padding: 100px;
+    padding-bottom: 0;
+
+}
+
+.header-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-content .txt {
+    width: 30%;
+    padding-bottom: 100px;
+}
+
+.header-content .txt h1 {
+    margin-bottom: 20px
+}
+
+.header-content .image {
+    width: 30%;
+
+}
+
+.header-content .image img {
+    width: 100%;
+    display: block;
+    /* height:100%; */
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: white;
+}
+
+.content-txt {
+    text-align: center;
+
+    font-size: 12px;
+}
+
+.content .inner {
+    padding-bottom: 100px;
+    width: 50%;
+    margin: auto;
+}
+
+.content-txt p {
+    margin-top: 20px;
+}
+
+.content-txt button {
+    margin-top: 20px;
+}
+
+.content2 {
+    width: 100%;
+    background-color: skyblue;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+.content2 .item {
+    width: 25%;
+    text-align: center;
+}
+
+.content2 .item i {
+    font-size: 50px;
+}
+
+.photo-form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.photo-form .photo-item {
+    width: 50%;
+    position: relative;
+    overflow:hidden
+}
+
+.photo-form .photo-item img {
+    width: 100%;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    /*  */
+    position: absolute;
+    z-index: 2;
+    border: 0px solid white;
+    transition:all 1s;
+    box-sizing: border-box;
+    
+}
+
+.overlay:hover {
+    border: 30px solid white;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width:728px) {
+    .header-content .txt {
+        text-align: center;
+        width: 100%;
+    }
+
+    .header-content .image {
+        width: 100%;
+    }
+
+    .header-content {
+        flex-wrap: wrap;
+    }
+
+}

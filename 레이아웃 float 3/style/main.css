@@ -1,0 +1,37 @@
+.container{
+    width:60%;
+    margin:auto;
+    max-width:600px;
+    min-width: 500px;
+
+   /* 최대 width 값을 지정해두는 것이 좋음 (max-width) */
+    
+
+}
+
+.header{
+    width:100%;
+    /* 100퍼센트란 부모태그의 100% */
+    height:100px;
+    background-color: aquamarine;
+}
+.left-menu{
+    width:30%;
+    height:400px;
+    background: cornflowerblue;
+    float:left;
+}
+.right{
+    width:70%;
+    height:400px;
+    background: coral;
+    float: right;
+}
+.footer{
+    width:100%;
+    height:100px;
+    background-color: grey;
+    clear:both;
+}
+
+/* float 다음요소에 clear:Both를 주면 이상한 현상 해결가능 */
